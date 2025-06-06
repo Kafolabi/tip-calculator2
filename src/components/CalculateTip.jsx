@@ -1,6 +1,6 @@
 const CalculateTip = function ({ tipAmountPerPerson, totalPerPerson, onReset }) {
   return (
-    <section className="bg-secondary w-1/2 py-6 m-6 px-5 rounded-xl">
+    <section className="bg-secondary md:w-1/2 py-6 m-6 px-5 rounded-xl">
       <section className="flex">
         <h1 className="text-start text-white w-1/2">
           Tip <br /> Amount{" "}
@@ -30,3 +30,4 @@ const CalculateTip = function ({ tipAmountPerPerson, totalPerPerson, onReset }) 
 };
 
 export default CalculateTip;
+

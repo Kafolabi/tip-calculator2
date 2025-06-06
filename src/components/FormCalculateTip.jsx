@@ -23,8 +23,8 @@ const FormCalculateTip = () => {
     bill && numberOfPeople ? bill / numberOfPeople + tipAmountPerPerson : 0;
 
   return (
-    <section className="flex items-center mt-4 bg-white rounded-2xl shadow-md justify-center mx-80 text-sm font-bold">
-      <form className="max-w-md w-1/2 block ps-6 py-6">
+    <section className="md:flex items-center mt-4 bg-white rounded-2xl shadow-md justify-center mx-auto max-w-3xl w-full text-sm font-bold">
+      <form className="md:max-w-md md:w-1/2 block px-8 py-6">
         <Inputs
           inputType="Bill"
           inputSymbol="₦"
@@ -105,3 +105,4 @@ const FormCalculateTip = () => {
 };
 
 export default FormCalculateTip;
+
